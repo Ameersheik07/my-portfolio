@@ -8,86 +8,124 @@
 
 <body>
 
-    <h1> Welcome To My Portfolio </h1>
+     <header>
+     <h1> Welcome To My Portfolio </h1>
 
-    <a href=""> 
+     <a href=""> 
         <button>About</button>
-    </a>
+     </a>
 
-    <a href="">
+     <a href="">
         <button>Skills</button>
-    </a>
+     </a>
 
-    <a href="">
+     <a href="">
         <button>Projects</button>
-    </a>
+     </a>
 
-    <a href="">
+     <a href="">
         <button>Contact</button>
-    </a>
+     </a>
 
-    <h1> Sheik Ameer </h1>
+     </header>
 
-    <img src="my img.jpeg" alt="A oicture of me">
+    <main>
 
-    <p> I am passionate web developer with a focus on front-end technologies. </p>
+    <section id="about">
+         <h1> Sheik Ameer </h1>
+
+         <img src="my img.jpeg" alt="A oicture of me">
+
+         <p> I am passionate web developer with a focus on front-end technologies. </p>
 
 
-     <p> I am currently pursuing my B.tech in <em>Centurion University,Vizayanagaram</em> </p>
+         <p> I am currently pursuing my B.tech in <em>Centurion University,Vizayanagaram</em> </p>
 
-     <p> I have learnt Web Development from </p1> <br> 
+         <p> I have learnt Web Development from </p1> <br> 
          Code With John.</p>
 
-    <p> You can <strong>Click Here </strong>to checkout what i have learnt in HTML,CSS,JS. </p>
+        <p> You can <strong>Click Here </strong>to checkout what i have learnt in HTML,CSS,JS. </p>
 
+    </section>
 
-    <h1> My Sklls </h1>
+    <section id="skills">
+         <h1> My Sklls </h1>
 
-    <ol>
-        <li> HTML </li>
-        <li> CSS </li>
-        <li> Java Script </li>
-        <li> React </li>
-    </ol>
+         <ol>
+         <li> HTML </li>
+         <li> CSS </li>
+         <li> Java Script </li>
+         <li> React </li>
+         <li>Python</li>
+         </ol>
+    </section>
 
+    <section id="projects">
+         <table>
+         <h1>My Projects</h1>
+          <table border="1">
+        <tr>
+            <th>Projects</th>
+            <th>Description</th>
+        </tr>
+        
+        <tr>
+            <td>description website</td>
+            <td>i have a built a portfolio website by using HTML,CSS,JAVASRIPT</td>
+        </tr>
 
-    <h1>Contact me</h1>
+        <tr>
+            <td>python simple calculator</td>
+            <td>i have built a simple calculator in the course by code with swaroop</td>
+        </tr>
+    </table>
 
-    <p>Feel free to get in touch with me using the form below:</p>
+    </section>
 
-    <form>
+    <section id="contact">
+         <h1>Contact me</h1>
+
+         <p>Feel free to get in touch with me using the form below:</p>
+
+        <form>
     
-        <lable for="name">Name:</lable>
-        <input type="text">
-        <br>
-        <lable for="email">Email:</lable>
-        <input type="email">
-        <br>
-        <b>choose your gender</b>
-        <input type="radio" id="Mailradio" value="male">
+         <lable for="name">Name:</lable>
+         <input type="text">
+         <br>
+         <lable for="email">Email:</lable>
+         <input type="email">
+         <br>
+         <b>choose your gender</b>
+         <input type="radio" id="Mailradio" value="male">
          <ladle for="Mailradio"> Male </ladle>
 
          <input type="radio" id="Femaleradio" value="Female">
          <lable for="Femaleradio">Female </lable>
-        <br>
-        <b>select your interests:</b>
-        <input type="checkbox" id="coding" value="coding">
-        <lable for="coding">Coding</lable>
+         <br>
+         <b>select your interests:</b>
+         <input type="checkbox" id="coding" value="coding">
+         <lable for="coding">Coding</lable>
 
-        <input type="checkbox" id="reading" value="reading">
-        <lable for="reading">Reading</lable>
+         <input type="checkbox" id="reading" value="reading">
+         <lable for="reading">Reading</lable>
 
-        <br>
+         <br>
 
-        <label for="bio">bio(up to 200 characters): </label>
-        <input type="text">
-        <br>
-        <button type="submit">Submit</button>
+         <label for="bio">bio(up to 200 characters): </label>
+         <input type="text">
+         <br>
+         <button type="submit">Submit</button>
 
 
-    </form>
+         </form>
 
- 
-    
+    </section>
+
+    </main>
+
+    <footer>
+    <p>@ 2023 my portfolio</p>
+    </footer>
+
 </body>
 </html>
